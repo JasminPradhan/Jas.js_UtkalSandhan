@@ -1,13 +1,15 @@
 import { useParams,useNavigate} from "react-router-dom";
 import useFetch from "./useFetch";
+import {} from "dotenv/config"
 
 const BlogDetails = ( ) => {
+    const PORT = process.env.PORT || 8080;
     const {id} = useParams();
-    const {data:blog,error, isPending} = useFetch('http://localhost:3000/blogs/' + id);
+    const {data:blog,error, isPending} = useFetch(`http://localhost:${PORT}/blogs/` + id);
     const history = useNavigate();
 
     const handleClick = ()=>{
-        fetch('http://localhost:3000/blogs/'+blog.id,{
+        fetch(`http://localhost:${PORT}/blogs/`+blog.id,{
             method:'DELETE'
         }).then(
             () => history.push('/'))

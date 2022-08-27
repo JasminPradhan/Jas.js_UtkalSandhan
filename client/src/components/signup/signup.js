@@ -42,21 +42,6 @@ const SignUp=()=>{
     }
     }
     return(
-        // <div className="sign-up-form">
-        //     <div>
-        //         <h1>Sign Up</h1>
-        //         <form>
-        //             <input type="name" placeholder="UserName" className="userName" name="name" value={user.name} onChange={changeHandler}></ input>
-        //             <input type="name" placeholder="Your Location" className="userLoccation" name="location" value={user.location} onChange={changeHandler}></ input>
-        //             <input type="email" placeholder="Your Email" className="email" name="email" value={user.email} onChange={changeHandler}></ input>
-        //             <input type="number" placeholder="Your Phone No." className="phoneNumber" name="phoneNumber" value={user.phoneNumber} onChange={changeHandler}></ input>
-        //             <input type="password" placeholder="Enter password" className="password" name="password" value={user.password} onChange={changeHandler}></ input>
-        //             <input type="password" placeholder="reEnter password" className="reEnterPassword" name="reEnterPassword" value={user.reEnterPassword} onChange={changeHandler}></ input>
-        //         </form>
-        //         <button onClick={signUp}>Create</button>
-        //         <div>Back to Login</div>
-        //     </div>
-        // </div>
         <div className="sign-up-form">
         <div>
             <div>

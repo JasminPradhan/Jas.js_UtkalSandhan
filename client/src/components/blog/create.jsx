@@ -1,8 +1,10 @@
 import { useState } from "react";
 import {useNavigate} from 'react-router-dom';
+import {} from "dotenv/config"
 
 
 const Create  = () => {
+    const PORT = process.env.PORT || 8080;
     const [title,setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
@@ -13,7 +15,7 @@ const Create  = () => {
         e.preventDefault();
         const blog = {title, body , author}
         setIsPending(true);
-        fetch('http://localhost:3000/blogs',{
+        fetch(`http://localhost:${PORT}/blogs`,{
             method:'POST',
             headers:{"Content-Type":"application/json"},
             body: JSON.stringify(blog)
