@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom';
-import {} from "dotenv/config"
+// import {} from "dotenv/config"
 
 const BlogList =  async ({title}) =>{
-    const PORT = process.env.PORT || 8080;
+    const PORT = 3000;
 
     // const response = await fetch(`http://localhost:${PORT}`)
     const blogs = [

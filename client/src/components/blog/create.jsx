@@ -1,10 +1,10 @@
 import { useState } from "react";
 import {useNavigate} from 'react-router-dom';
-import {} from "dotenv/config"
+// import {} from "dotenv/config"
 
 
 const Create  = () => {
-    const PORT = process.env.PORT || 8080;
+    const PORT = 3000;
     const [title,setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');

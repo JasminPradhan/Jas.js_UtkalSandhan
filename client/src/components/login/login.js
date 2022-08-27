@@ -25,8 +25,9 @@ const Login=()=>{
     const login=async(e)=>{
         e.preventDefault()
         try{
-                const res = axios.post("/login",user)
-                res.data && window.locationreplace("/login");
+                
+                // const res = axios.post("/login",user)
+                // res.data && window.locationreplace("/login");
                 
         }
     catch(err){

@@ -15,27 +15,28 @@ const SignUp=()=>{
     })
     const[err,setError]=useState(false)
     const changeHandler=e=>{
-        // e.preventDefault()
+        e.preventDefault()
         const{name,value}=e.target
         setUser({
             ...user,
             [name]:value
         })
     }
-    const signUp=(e)=>{
+
+
+    const signUp=async (e)=>{
         e.preventDefault();
         try{
             const{name,location,email,phoneNumber,password,reEnterPassword}=user
-            if(name&&email&&location&&phoneNumber&&password&&(password===reEnterPassword))
-            {
-                alert("signup sucessful")
-                const res = axios.post("http://localhost::8000/signup",user)
-                res.data && window.locationreplace("/login");
-            }
-            else{
-                console.log(name)
-                alert("invalid")
-            }
+           if(name&&location&&email&&phoneNumber&&password&&(password===reEnterPassword))
+              {
+                  const res=axios.post("http://localhost:8000/signup",user )
+                //  .then(res=>alert(res.status.message))
+                .then(res=>{console.log("")})
+                }  
+                else{
+                    alert("Invalid")
+                }
         }
     catch(err){
         setError(true);
