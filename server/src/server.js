@@ -9,10 +9,10 @@ const app = express();
 const DB = process.env.DATABASE;
 
 app.use(express.json());
-app.use(express.urlencoded());
-app.use(cors());
+// app.use(express.urlencoded());
+// app.use(cors());
 
-app.use(require('../src/api/route/routing'))
+app.use(require('./api/route/routing'))
 
 const PORT = process.env.PORT || 8080;
 
