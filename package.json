@@ -1,0 +1,25 @@
+{
+  "name": "jas.js_utkalsandhan",
+  "version": "1.0.0",
+  "description": "Hackathon Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasminPradhan/Jas.js_UtkalSandhan.git"
+  },
+  "author": "Jas.js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasminPradhan/Jas.js_UtkalSandhan/issues"
+  },
+  "homepage": "https://github.com/JasminPradhan/Jas.js_UtkalSandhan#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
