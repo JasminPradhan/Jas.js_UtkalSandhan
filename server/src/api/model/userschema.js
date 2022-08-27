@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
 
 const userschema = new mongoose.Schema({
     name:{
@@ -11,14 +12,22 @@ const userschema = new mongoose.Schema({
     },
 
     email:{
-        type:String,
-        require: true
+        type: String,
+        require: true,
+        unique: true,
+        lowercase: true,
+        trim: true,
+        match:[
+            /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+            "Enter a validate email"
+        ]
     },
 
     phoneno:{
         type: Number,
         require: true,
-        minlength: 10
+        trim: true,
+        minlength:10
     },
 
     password:{
