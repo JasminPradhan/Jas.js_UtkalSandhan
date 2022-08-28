@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo(2).png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Utkal Sandhan</h3>
@@ -76,7 +76,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![image](https://user-images.githubusercontent.com/40180496/187057701-380142f3-4d63-479c-a308-3213d8f16e50.png)
+
 
 Our Project aims to improve the tourism sector of Odisha. Odisha is also known as India's best-kept secret because of being overlooked by the world for too long. Places like Chandragiri and Debrigarh fall short of making into a traveler's destination place. Like the above, one can find examples of sites that are  treated as almost non-existent by tourism sector. Lack of publicity for these countless places and unavailability of basic amenities and accommodations at these spots have resulted in limited tourism. Besides, unfamiliarity with the myths and legends of these sites and the absence of a proper travel community is the add-on.
 
