@@ -142,6 +142,10 @@ _Below is an example of how you can instruct your audience on installing and set
 ### Chandragiri Lore
 ![picture cards](https://user-images.githubusercontent.com/40180496/187058115-a75d5287-2db0-401b-b512-5e209bad2edf.png)
 
+### User Profile
+![image](https://user-images.githubusercontent.com/40180496/187058804-f7ac5cb3-4f71-4b54-a164-0ac12e89e2b9.png)
+
+
 
 
 
