@@ -35,11 +35,11 @@
     <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan">Request Feature</a>
   </p>
 </div>
 
@@ -87,9 +87,6 @@ Here's why:
 * A platform for solo travellers who have the zeal to walk across the edge of the world
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -103,8 +100,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -136,8 +131,6 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -145,32 +138,12 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [UtkalSandhan](https://github.com/JasminPradhan/Jas.js_UtkalSandhan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
