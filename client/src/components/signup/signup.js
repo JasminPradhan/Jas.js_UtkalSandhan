@@ -32,7 +32,7 @@ const SignUp=()=>{
               {
                   const res=axios.post("http://localhost:8000/signup",user )
                 //  .then(res=>alert(res.status.message))
-                .then(res=>{console.log("")})
+                .then(res=>console.log(res))
                 }  
                 else{
                     alert("Invalid")
@@ -63,8 +63,8 @@ const SignUp=()=>{
 
             </div>
             
-            <button  onClick={signUp} className="absolute top-[78%] right-[29.5%] rounded-full bg-orange-400 h-[50px] w-[150px] text-white font-bold hover:text-orange-600 hover:bg-white hover:outline outline-1">Create</button>
-            <div className="absolute top-[86%] left-[62%] cursor-pointer" onClick={()=>nav("/login")}>Back to Login</div>
+            <button  onClick={signUp} className="absolute top-[80%] right-[29.5%] rounded-full bg-orange-400 h-[40px] w-[150px] text-white font-bold hover:text-orange-600 hover:bg-white hover:outline outline-1">Create</button>
+            <div className="absolute text-orange-400 text-sm top-[88%] left-[62%] cursor-pointer" onClick={()=>nav("/login")}>Back to Login</div>
         </div>
     </div>
     );

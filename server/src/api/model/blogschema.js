@@ -8,6 +8,18 @@ const blogschema = new mongoose.Schema({
     description:{
         type:String,
         require: true
+    },
+    author:{
+        type: String,
+        require: true
+    },
+    createdAt:{
+        type: Date,
+        default: Date.now()
+    },
+    updatedAt:{
+        type: Date,
+        default: Date.now()
     }
 });
 

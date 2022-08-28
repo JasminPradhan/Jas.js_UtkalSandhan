@@ -9,7 +9,7 @@ const app = express();
 const DB = process.env.DATABASE;
 
 app.use(bodyparser.json());
-app.use(bodyparser.urlencoded({extended:true}));
+app.use(bodyparser.urlencoded({extended:false}));
 
 // app.use(express.json());
 // app.use(express.urlencoded());

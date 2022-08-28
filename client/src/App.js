@@ -19,11 +19,11 @@ function App() {
       <SignUp/> */}
       <Router>
       <Routes>
-        {/* <Route path="/" exact={true} element={<Landing/>}/> */}
-        {/* <Route path="/create" element={<Create/>}/> */}
-        {/* <Route path="/login" element={<Login/>}/> */}
+        <Route path="/" exact={true} element={<Landing/>}/>
+        <Route path="/create" element={<Create/>}/>
+        <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<SignUp/>}/>
-        {/* <Route path="/profile" element={<Profile/>}/> */}
+        <Route path="/profile" element={<Profile/>}/>
       </Routes>
       </Router>
     </div>
