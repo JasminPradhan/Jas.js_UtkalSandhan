@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo(2).png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Utkal Sandhan</h3>
@@ -35,11 +35,11 @@
     <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/JasminPradhan/Jas.js_UtkalSandhan">Request Feature</a>
   </p>
 </div>
 
@@ -76,7 +76,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![image](https://user-images.githubusercontent.com/40180496/187057701-380142f3-4d63-479c-a308-3213d8f16e50.png)
+
 
 Our Project aims to improve the tourism sector of Odisha. Odisha is also known as India's best-kept secret because of being overlooked by the world for too long. Places like Chandragiri and Debrigarh fall short of making into a traveler's destination place. Like the above, one can find examples of sites that are  treated as almost non-existent by tourism sector. Lack of publicity for these countless places and unavailability of basic amenities and accommodations at these spots have resulted in limited tourism. Besides, unfamiliarity with the myths and legends of these sites and the absence of a proper travel community is the add-on.
 
@@ -84,9 +85,6 @@ Here's why:
 * An interface to know about the myths and tradition of the undiscovered places to rekindle the fire of exploration
 * Foramtion of a dedicated traveller community for sharing of experience and valuable guidance.
 * A platform for solo travellers who have the zeal to walk across the edge of the world
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -102,8 +100,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -135,41 +131,31 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Code Ui and Demo
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Landing Page
+![landing page](https://user-images.githubusercontent.com/40180496/187058067-1df53498-dc62-4b66-87df-2dcd16cd6c42.png)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Chandragiri Lore
+![picture cards](https://user-images.githubusercontent.com/40180496/187058115-a75d5287-2db0-401b-b512-5e209bad2edf.png)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### User Profile
+![image](https://user-images.githubusercontent.com/40180496/187058804-f7ac5cb3-4f71-4b54-a164-0ac12e89e2b9.png)
 
 
 
-<!-- ROADMAP -->
-## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [UtkalSandhan](https://github.com/JasminPradhan/Jas.js_UtkalSandhan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
