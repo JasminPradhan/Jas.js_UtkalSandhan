@@ -134,9 +134,17 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Code Ui and Demo
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Landing Page
+![landing page](https://user-images.githubusercontent.com/40180496/187058067-1df53498-dc62-4b66-87df-2dcd16cd6c42.png)
+
+### Chandragiri Lore
+![picture cards](https://user-images.githubusercontent.com/40180496/187058115-a75d5287-2db0-401b-b512-5e209bad2edf.png)
+
+
+
+
 
 
 <!-- CONTACT -->
