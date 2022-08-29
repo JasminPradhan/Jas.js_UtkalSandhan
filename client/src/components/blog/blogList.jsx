@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 
 
-const BlogList =  ({title}) =>{
+const BlogList =  ({blogs, title}) =>{
     const PORT = 3000;
 
     return(
