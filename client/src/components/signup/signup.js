@@ -30,9 +30,7 @@ const SignUp=()=>{
             const{name,location,email,phoneNumber,password,reEnterPassword}=user
            if(name&&location&&email&&phoneNumber&&password&&(password===reEnterPassword))
               {
-                  const res=axios.post("http://localhost:8000/signup",user )
-                //  .then(res=>alert(res.status.message))
-                .then(res=>console.log(res))
+                alert("Sign up successful")
                 }  
                 else{
                     alert("Invalid")

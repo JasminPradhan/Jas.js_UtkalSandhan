@@ -6,11 +6,12 @@ import axios from "axios"
 import {useNavigate} from "react-router-dom"
 
 const Login=()=>{
+    const nav=useNavigate()
     const [user, setUser]=useState({
         email:"",
         password:""
     })
-    const [err,setError]=useState(false)
+    // const [err,setError]=useState(false)
 
     const navigate=useNavigate()
 
@@ -24,20 +25,8 @@ const Login=()=>{
     }
 
     const login=async(e)=>{
-        e.preventDefault()
-        try{
-            axios.post("http://localhost:8000/Login",user)
-            .then(res=>{alert(res.data.message)
-            setUser(res.data.user)
-        navigate("/")})
-                // const res = axios.post("/login",user)
-                // res.data && window.locationreplace("/login");
-                
-        }
-    catch(err){
-        setError(true)
-    }
-}
+        nav("/profile")
+ }
     return(
         <div className="log-in-form">
         <div>

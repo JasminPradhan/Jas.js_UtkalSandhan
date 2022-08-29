@@ -1,11 +1,13 @@
 import { useState } from "react";
 import logo2 from '../images/logo 2.png';
 import maps from '../images/map.png';
+import {useNavigate} from "react-router-dom"
 
 // import {useNavigate} from 'react-router-dom';
 
 
 const Create  = () => {
+    const nav=useNavigate()
     const [title,setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
@@ -37,7 +39,7 @@ const Create  = () => {
             <div className="flex flex-row space-x-6 absolute top-[60px] left-[1000px] text-yellow-700">
                     
                       <div className="flex flex-row space-x-6">
-                         <div>Profile</div>
+                         <div className="cursor-pointer" onClick={()=>nav("/profile")}>Profile</div>
                          <div>Wishlist</div>
                          <div>Notification</div>
                         </div>
