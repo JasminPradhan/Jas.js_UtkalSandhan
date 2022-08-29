@@ -50,7 +50,7 @@ const Login=()=>{
             </div>
             
             <div className="icons flex space-x-6 absolute top-[32%] left-[30.5%]">
-            <img src={google} className="w-10" alt="" />
+            <a href="/auth"><img src={google} className="w-10" alt="" /></a>
             <img src={fb} className="W-10" alt="" />
             </div>
             <div className="absolute top-[40%] left-[30%] text-gray-400"><p>or continue with</p></div>
