@@ -60,6 +60,7 @@ exports.signup = (req,res) => {
   Userdb.findOne({email}, (err,user) =>{
       if(user){
           res.send({message: "User already registered!"})
+        //   res.send(user)
       }
       else{
           const user = new Userdb({name,location,email,phoneno,password})
@@ -89,7 +90,7 @@ exports.signup = (req,res) => {
       Userdb.findOne({email}, (err,user) =>{
           if(user){
               if(password === user.password) {
-                  res.send({message: "Login Successful"}, user)
+                  res.send({message: "Login Successful"})
               }
               else {
                   res.send({message: "Incorrect Password"})

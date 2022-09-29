@@ -11,6 +11,7 @@ route.put('/blogs/:id',controllerblog.update);
 route.delete('/blogs/:id',controllerblog.delete);
 
 route.post('/signup',controlleruser.signup);
+route.get('/signup',controlleruser.signup);
 route.post('/login',controlleruser.login);
 
 module.exports = route;
