@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import bgs from "../images/signupbg.png"
 import { useNavigate} from "react-router-dom";
-import axios from "axios"
+import axios from "axios";
 
 const SignUp=()=>{
     const nav=useNavigate()

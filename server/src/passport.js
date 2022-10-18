@@ -12,12 +12,12 @@ passport.deserializeUser((user,done)=>{
 });
 
 passport.use(new GoogleStrategy({
-    clientID:'131181674018-2jauvtek85ikdtarjccfh51f3r072avf.apps.googleusercontent.com',
-    clientSecret:'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',
-    callbackURL:'http://localhost:3000/auth/callback',
+    clientID: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
+    callbackURL: process.env.CALLBACK_URL,
     passReqToCallback:true
     },
-    function(request, accessToken, refreshToken, profile, done) {
+    (request, accessToken, refreshToken, profile, done) => {
         return done(null, profile);
       }
 ));
