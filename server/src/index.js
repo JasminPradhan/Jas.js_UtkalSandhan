@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
-// const cors = require('cors');
+const cors = require('cors');
 // const bodyparser = require('body-parser');
 // const passport = require('passport')
 // const Session = require('express-session')
@@ -11,21 +11,32 @@ dotenv.config();
 
 
 const app = express();
+
 const DB = process.env.DATABASE;
 
 app.use(express.json());
-// app.use(express.urlencoded());
+app.use(express.urlencoded());
+
+
+// Cross Origin Resourse Sharing  
+const corsOptions = {
+    origin: 'http://localhost:3000',
+    credentials: true,
+    methods: ['GET','POST','HEAD','PUT','PATCH','DELETE'],
+    allowedHeaders: ['Content-Type'],
+    exposedHeaders: ['Content-Type']
+};
+app.use(cors(corsOptions))
 // app.use(Session({
 //   resave: false,
 //   saveUninitialized: true,
 //   secret: 'SECRET' 
 // }));
 
-
 // app.use(passport.initialize());
 // app.use(passport.session());
 
-// app.use(cors());
+
 
 app.use(require('../src/api/route/routing'));
 
